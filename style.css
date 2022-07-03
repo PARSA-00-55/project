@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(179, 178, 178);
+    color: rgb(49, 49, 49);
+}
+
+    /* Start nav bar */
+
+header{
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.head-section{
+    /* margin-left: -100px; */
+    line-height: 23px;
+    padding: 0rem 2rem 0rem 0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head-section>h3{
+    font-weight: 2000;
+    font-size: 4rem;
+}
+.head-section>h4{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* nav=-bar start */
+.nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-bar>ul li{
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav-bar >ul li a{
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 9999px;
+    color: rgba(80, 79, 79, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.nav-bar >ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(61, 61, 61);
+    transition: 1000ms;
+    
+}
+
+    /* End nav-bar */
+
+    /* End nav bar */
+
+    /* Start hero section */
+
+#mother{
+    margin: 20px;
+    padding: 10px;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.flex-item{
+    margin: 10px;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.flex-item-1{
+    height: 270px;
+    border-radius: 50%;
+    background-image: url(image/parsa_03.jpg);
+    background-repeat: no-repeat;
+}
+.flex-item-2{
+    height: 200px;
+    /* background-color: red; */
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+span{
+    padding: 1rem;
+}
+
+
+    /* End hero section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
