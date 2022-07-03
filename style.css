@@ -87,8 +87,8 @@ header{
 .flex-item-1{
     height: 270px;
     border-radius: 50%;
-    background-image: url(image/parsa_03.jpg);
-    background-repeat: no-repeat;
+    background-image: url(image/parsa_02.jpg);
+    /* background-repeat: no-repeat; */
 }
 .flex-item-2{
     height: 200px;
